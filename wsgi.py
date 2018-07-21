@@ -6,7 +6,7 @@ def hello():
     return "Hello World!"
 
 @application.route("/dashboard")
-def hello():
+def dashboard():
     return render_template('dashboard.html')
 
 if __name__ == "__main__":
